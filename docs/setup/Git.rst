@@ -81,16 +81,4 @@ The main features are:
     * View diffs.
 
 
-----
-
-Git in PyCharm
-------------------------------
-
-Git can also be used in other IDEs for python such as PyCharm.
-
-See: https://www.jetbrains.com/help/idea/using-git-integration.html
-
-For use of git in PyCharm see: https://www.youtube.com/watch?v=-_g3QITLaQA
-
-
 
