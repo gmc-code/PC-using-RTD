@@ -27,7 +27,7 @@ Import GitHub project
 * Click refresh to show all GitHub repositories
 * Click on a plus sign for a repo
 * Name and URL are automatic
-* Advanced: enter "master" as branch for latest.
+* Advanced: enter "main" as branch for latest.
 * Click Build to build it in RTD.
 
 ----

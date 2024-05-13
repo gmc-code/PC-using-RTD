@@ -4,7 +4,7 @@
 GitHub and VSCode
 ==============================
 
-The info below is for the simplest approach where there is only the master branch locally which is being maintained and pushed to the github repository.
+The info below is for the simplest approach where there is only the main branch locally which is being maintained and pushed to the github repository.
 
 For github advice see: https://docs.github.com/en/get-started/importing-your-projects-to-github/importing-source-code-to-github/adding-locally-hosted-code-to-github
 
@@ -36,16 +36,16 @@ VSCode starting from **creating a new empty repository**
     git init
     git add README.md
     git commit -m "first commit"
-    git branch -M master
+    git branch -M main
     git remote add origin https://github.com/mygithubname/myrepo.git
-    git push -u origin master
+    git push -u origin main
 
 ----
 
 GitHub settings
 ------------------------------
 
-* Set Repository default branch to ``master`` (``main`` is preferred branch name post 2020).
+* Set Repository default branch to ``main`` (``main`` is preferred branch name post 2020).
 * https://github.com/settings/repositories
 
 ----
@@ -72,9 +72,9 @@ Run from within the main VScode folder that the docs folder is within.
     git init
     git add README.md
     git commit -m "first commit"
-    git branch -M master
+    git branch -M main
     git remote add origin https://github.com/mygithubname/myrepo.git
-    git push -u origin master
+    git push -u origin main
 
 .. note::
 
@@ -90,8 +90,8 @@ In VSCode, run from within the main VScode folder that the docs folder is within
 .. code-block::
 
     git remote add origin https://github.com/mygithubname/myrepo.git
-    git branch -M master
-    git push -u origin master
+    git branch -M main
+    git push -u origin main
 
 ----
 

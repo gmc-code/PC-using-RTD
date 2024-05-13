@@ -88,9 +88,9 @@ Install python packages via requirements.txt
 
 .. code-block::
     
-    Sphinx==7.2.6
+    Sphinx==7.3.7
     sphinx-copybutton==0.5.2
-    sphinx-rtd-theme==1.3.0
+    sphinx-rtd-theme==2.0.0
     sphinx-togglebutton==0.3.2
     sphinx_design==0.5.0
 
@@ -98,9 +98,9 @@ Install python packages via requirements.txt
 
 .. code-block::
     
-    pip install Sphinx==7.2.6
+    pip install Sphinx==7.3.7
     pip install sphinx-copybutton==0.5.2
-    pip install sphinx-rtd-theme==1.3.0
+    pip install sphinx-rtd-theme==2.0.0
     pip install sphinx-togglebutton==0.3.2
     pip install sphinx_design==0.5.0
     
@@ -208,7 +208,7 @@ Uninstalling all python packages
 
 ----
 
-Update virtual Venvironment python in place
+Update virtual environment python in place
 ----------------------------------------------------
 
 | To update Python in a virtual environment, you can run this code from a terminal which has the latest version of python installed:

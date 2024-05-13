@@ -14,7 +14,7 @@ Git
 Install Git
 ------------------------------
 
-Download and install git version 2.45 (or newer) from https://git-scm.com/. Use all defaults.
+Download and install git version 2.45 (as of 2024, or newer) from https://git-scm.com/. Use all defaults.
 
 ----
 

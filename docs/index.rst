@@ -1,4 +1,4 @@
-.. PC-Using-RTD documentation master file, created by sphinx-quickstart, 2020, updated 2022.
+.. PC-Using-RTD documentation main file, created by sphinx-quickstart, 2020, updated 2022.
     It should at least contain the root `toctree` directive.
 
 ==============================
@@ -43,7 +43,7 @@ An alternate approach can be followed in the techwritingmatters tutorial which h
 https://techwritingmatters.com/documenting-with-sphinx-tutorial-intro-overview#Structure_of_the_Tutorial
 It starts by cloning a new GitHub repository to the computer. It is Mac based. It uses a text editor instead of VSCode.
 
-The above steps are suitable for one author using the master branch only. 
+The above steps are suitable for one author using the main branch only. 
 For collaboration and the use of feature branches for development see the command line interface (CLI) commands details below:
 
 .. toctree::

@@ -146,7 +146,7 @@ To check the status of the git:
 
     git status
 
-| It outputs the current working branch and how it compares to the remote master branch.
+| It outputs the current working branch and how it compares to the remote main branch.
 | It lists file changes that are not yet staged.
 | It lists the staged files.
 | It reports whether there are local commits yet to be published.
@@ -307,15 +307,15 @@ Pull from remote first to include other users changes then push:
 
 .. code-block::
 
-    git pull origin master
+    git pull origin main
 
 Pull will list changes in remote repo since last pull from it.
-Origin is the name of the remote repo and master is the branch.
+Origin is the name of the remote repo and main is the branch.
 Push updates the remote branch:
 
 .. code-block::
 
-    git push origin master
+    git push origin main
 
 ----
 
@@ -359,15 +359,15 @@ To list all the local and remote branches in the repo:
 Merge a branch
 ------------------------------
 
-Steps to merge ``mygitcmds`` branch to master branch:
+Steps to merge ``mygitcmds`` branch to main branch:
 
 .. code-block::
 
-    git checkout master
-    git pull origin master
+    git checkout main
+    git pull origin main
     git branch --merged
     git merge mygitcmds
-    git push origin master
+    git push origin main
 
 ----
 
@@ -426,16 +426,16 @@ View details of changed files since last commit:
 
 ----
 
-Move commit from master to feature branch not yet pushed
+Move commit from main to feature branch not yet pushed
 ------------------------------------------------------------
 
-Use this after accidentally make commit to master branch instead of feature branch. Move commit:
+Use this after accidentally make commit to main branch instead of feature branch. Move commit:
 
 .. code-block::
 
     git log
 
-Copy the hash of the master branch's last commit that needs moving.
+Copy the hash of the main branch's last commit that needs moving.
 
 Switch to feature branch:
 
@@ -457,11 +457,11 @@ Check it.
 
     git log
 
-Then return master branch.
+Then return main branch.
 
 .. code-block::
 
-    git checkout master
+    git checkout main
     git log
 
 ----
@@ -631,21 +631,21 @@ To drop all stashes:
 
 ----
 
-Git Stash from master to feature branch
+Git Stash from main to feature branch
 ------------------------------------------------------------
 
-Steps to take when accidentally working in master branch.
+Steps to take when accidentally working in main branch.
 
 .. code-block::
 
-    git stash save "feature in master for newfeaturebranch"
+    git stash save "feature in main for newfeaturebranch"
     git status
     git diff
     git checkout <newfeaturebranch>
     git stash pop
     git diff
     git add .
-    git commit -m "new feature from master"
+    git commit -m "new feature from main"
 
 ----
 
