@@ -13,6 +13,7 @@ Install Python
 
 * Download and install Python from https://www.python.org/downloads/.
 * Check the checkbox to update the path variable when installing.
+  
 * Manually update path if it wasn't automatically done during installation.
 * In windows search enter "edit the system environment variables" to edit the environment variables. 
 * Edit the path variable to include the path to the installed python version.
@@ -69,7 +70,7 @@ Using the python Virtual environment in VSCode
 Update pip
 -----------------------------------------------
 
-| To upgrage pip run:
+| To upgrade pip run:
 
 .. code-block::
 
@@ -94,7 +95,7 @@ Install python packages via requirements.txt
     sphinx-togglebutton==0.3.2
     sphinx_design==0.5.0
 
-| Alternatively, install each package indiviaually as needed:
+| Alternatively, install each package individually as needed:
 
 .. code-block::
     
@@ -173,7 +174,7 @@ Updating python packages in a requirements file
 Save package list to requirements file
 ------------------------------------------------------------
 
-| After setting up a project, there may be a need to create a new the virtual environment with a new verion of python, but with all the libraries in the the virtual environment 
+| After setting up a project, there may be a need to create a new the virtual environment with a new version of python, but with all the libraries in the the virtual environment 
 
 | A ``requirements.txt`` file can be saved and used to create a new venv:
 
@@ -219,7 +220,7 @@ Update virtual environment python in place
 
 ----
 
-Update virtual Venvironment by reinstalling it
+Update virtual environment by reinstalling it
 ----------------------------------------------------
 
 | To update Python in a virtual environment, you can follow these steps:
