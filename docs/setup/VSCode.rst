@@ -34,4 +34,13 @@ Install VSCode reStructuredText Syntax highlighting extension
 * Type ``reStructuredText Syntax highlighting`` into the search box.
 * Install reStructuredText Syntax highlighting extension.
 
+----
+
+Install VSCode Esbonio extension
+------------------------------------------------------------
+
+* In VSCode, click the Extensions icon in the left side bar.
+* Type ``Esbonio`` into the search box.
+* The Esbonio extension integrates the esbonio language server into VSCode.
+* The esbonio language server aims to make it easier to work with Sphinx documentation projects by providing completion suggestions.
 
