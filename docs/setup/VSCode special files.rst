@@ -47,11 +47,12 @@ docs/requirements.txt
 
 .. code-block:: 
 
-    Sphinx==7.2.6
+    Sphinx==7.3.7
     sphinx-copybutton==0.5.2
-    sphinx-rtd-theme==1.3.0
+    sphinx-rtd-theme==2.0.0
     sphinx-togglebutton==0.3.2
     sphinx_design==0.5.0
+
 
 * If the version numbers are left off, read the docs will fetch the latest version that is compatible with the version of python it is using.
 * There is no need to include explicitly docutils, since it will be taken care of along withe the Sphinx requirement. 
