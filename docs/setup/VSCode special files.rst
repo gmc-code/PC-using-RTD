@@ -43,7 +43,7 @@ docs/requirements.txt
 * See: https://docs.readthedocs.io/en/stable/guides/specifying-dependencies.html
   
 * Use this text in the requirements file with the version numbers you are using:
-* As of Sep 2023, read the docs uses python 3.11.
+* As of MAy 2024, read the docs uses python 3.12.
 
 .. code-block:: 
 
@@ -55,7 +55,7 @@ docs/requirements.txt
 
 
 * If the version numbers are left off, read the docs will fetch the latest version that is compatible with the version of python it is using.
-* There is no need to include explicitly docutils, since it will be taken care of along withe the Sphinx requirement. 
+* There is no need to include explicitly docutils, since it will be taken care of along with the Sphinx requirement. 
 
 .. code-block::
 
