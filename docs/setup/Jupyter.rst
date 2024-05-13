@@ -274,7 +274,7 @@ sphinxcontrib-jupyter
 ----
 
 Install the sphinxcontrib-jupyter extension
---------------------------------------
+-------------------------------------------------
 
 | See: https://pypi.org/project/sphinxcontrib-jupyter/
 | See: https://sphinxcontrib-jupyter.readthedocs.io/en/latest/

@@ -56,7 +56,7 @@ Create a python Virtual environment
 ----
 
 Using the python Virtual environment in VSCode
----------------------------------------------
+-----------------------------------------------
 
 | VSCode allows the use of different python environments.
 | To use the python python Virtual environment in VSCode:
