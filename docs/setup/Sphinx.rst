@@ -9,7 +9,7 @@ Sphinx is a documentation generator. This means that it takes source files in pl
 Installations
 -----------------------------
 
-| Sphinx and some useful extentions can be installed individually or via a requirements.txt file.
+| Sphinx and some useful extensions can be installed individually or via a requirements.txt file.
 | For installing all in one go via a requirements.txt file steps: :ref:`Python requirements`.
 
 
@@ -20,28 +20,28 @@ Installations
 Suggested Sphinx extensions
 -----------------------------
 
-Sphinx and the following suggested extensions can be installed individaully or via the requirements.txt file.
+Sphinx and the following suggested extensions can be installed individually or via the requirements.txt file.
 
 * For sphinx-rtd-theme go to: https://pypi.org/project/sphinx-rtd-theme/
 * For sphinx-copybutton go to: https://pypi.org/project/sphinx-copybutton/
 * For sphinx-copybutton css go to:https://github.com/executablebooks/sphinx-copybutton/blob/master/sphinx_copybutton/_static/copybutton.css
-* For sphinx-design go to: https://pypi.org/project/sphinx_design/
 * For sphinx-togglebutton go to: https://pypi.org/project/sphinx-togglebutton/
+* For sphinx-design go to: https://pypi.org/project/sphinx_design/
+
 
 ----
 
 Dependencies
 --------------
 
-| As of Sept 1 2023, sphinx-rtd-theme 1.3.0 supports sphinx 7.0
 | For latest updates and dependencies see: https://sphinx-rtd-theme.readthedocs.io/en/stable/changelog.html
 
 
 .. code-block::
     
-    pip install Sphinx==7.2.6
+    pip install Sphinx==7.3.7
     pip install sphinx-copybutton==0.5.2
-    pip install sphinx-rtd-theme==1.3.0
+    pip install sphinx-rtd-theme==2.0.0
     pip install sphinx-togglebutton==0.3.2
     pip install sphinx_design==0.5.0
 
@@ -66,14 +66,14 @@ Install Sphinx
 
 .. code-block::
     
-    pip install sphinx==7.2.6
+    pip install sphinx==7.3.7
 
 
 * To upgrade include the ``-U`` flag.
 
 .. code-block::
     
-    pip install -U sphinx==7.2.6
+    pip install -U sphinx==7.3.7
 
 
 * Check the installed version with:
