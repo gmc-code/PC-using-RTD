@@ -43,7 +43,7 @@ docs/requirements.txt
 * See: https://docs.readthedocs.io/en/stable/guides/specifying-dependencies.html
   
 * Use this text in the requirements file with the version numbers you are using:
-* As of MAy 2024, read the docs uses python 3.12.
+* As of May 2024, read the docs uses python 3.12.
 
 .. code-block:: 
 
