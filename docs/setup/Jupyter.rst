@@ -49,7 +49,7 @@ docs/requirements.txt
 
 .. code-block::
     
-    jupyter-sphinx==0.4.0
+    jupyter-sphinx==0.5.3
     
 ----
 
@@ -145,8 +145,8 @@ docs/requirements.txt
 
 .. code-block::
     
-    sphinx==4.5.0
-    sphinx-thebe==0.1.2 
+    sphinx==7.3.7
+    sphinx-thebe==0.3.1 
 
 ----
 
@@ -241,7 +241,7 @@ docs/requirements.txt
 
 .. code-block::
     
-    nbsphinx==0.8.9 
+    nbsphinx==0.9.4
 
 ----
 
