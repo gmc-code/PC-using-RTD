@@ -6,11 +6,11 @@ This is optional.
 
 It is possible to use Jupyter in Sphinx files. 
 
-For the ability to edit the python code live and view the ouput there are two options:
+For the ability to edit the python code live and view the output there are two options:
     * jupyter-sphinx
     * sphinx-thebe
 
-For the ability to view the ouput from jupyter notebook files use:
+For the ability to view the output from jupyter notebook files use:
     * nbsphinx
 
 For the ability to convert the docs rst files to jupyter notebook files use:
@@ -24,7 +24,7 @@ Jupyter-sphinx
 
 Jupyter-sphinx is a Sphinx extension that executes embedded code in a Jupyter kernel, and embeds outputs of that code in the document. It has support for rich output such as Latex math. It allows live code execution, and thereby, interactive code blocks.
 
-It has the drawback that it is not fully compatable with the sphinx-copybutton extension. When both are used together the text "Copy to clipboard" has to be manually deleted form the live python code before it will run properly.
+It has the drawback that it is not fully compatible with the sphinx-copybutton extension. When both are used together the text "Copy to clipboard" has to be manually deleted form the live python code before it will run properly.
 
 ----
 
@@ -120,7 +120,7 @@ sphinx-thebe
 -------------------
 
 | The sphinx-thebe extension makes code cells interactive with a kernel provided by Thebe and Binder.
-| The drawback is that is is not compatiable with the latest version of Sphinx. Instead it requires sphinx==4.5.0.
+| The drawback is that is is not compatible with the latest version of Sphinx. Instead it requires sphinx==4.5.0.
 
 ----
 
