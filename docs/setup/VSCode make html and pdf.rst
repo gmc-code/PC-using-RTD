@@ -1,4 +1,4 @@
-.. _VSCode reStructuredText:
+.. _VSCode make html and pdf:
 
 ==============================
 VSCode make html and pdf
