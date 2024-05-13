@@ -34,48 +34,6 @@ View docs as html
     make clean
     make html
 
-* ``make clean`` is needed first since Sphinx only rebuilds pages that have changed.
-
-* Open the index file ``_build/html/index.html`` in a web browser to see the docs.
-* The html can also be viewed in the browser using the VSCode terminal.
-
-.. code-block::
-
-    start chrome _build/html/index.html
-
-* Add the VSCode extension ``open in browser`` to add the command ``open in default browser`` to the pop up menu when right clicking the html file in VSCode explorer panel.
-
-----
-
-View docs as html using localhost
-------------------------------------------------------------
-
-* Press :kbd:`ctrl` + :kbd:`shift` + :kbd:`\`` to open the VSCode terminal.
-* Make sure that the terminal folder is the docs folder.
-* eg: C:/projects/project-name/docs
-
-* Build an html version of the docs using the the VSCode terminal.
-
-.. code-block::
-
-    make clean
-    make html
-
-* Create a local server using the the VSCode terminal.
-
-.. code-block::
-
-    python -m http.server
-
-
-* Open the localhost in the browser: http://localhost:8000/_build/html/
-* The html can also be viewed in the browser using the the VSCode terminal.
-
-.. code-block::
-    
-    start chrome http://localhost:8000/_build/html/
-
-
 .. tip::
     Sometimes ``.\`` will be needed with ``make``
 
@@ -83,6 +41,26 @@ View docs as html using localhost
 
         .\make clean
         .\make html
+
+* ``make clean`` is needed first since Sphinx only rebuilds pages that have changed.
+
+
+* Get the full file path to the file: ``\docs\_build\html\index.html`` and paste it into a browser.
+  
+* The html can also be viewed in the browser using the VSCode terminal.
+
+.. code-block::
+
+    start chrome C:\Users\<<path details>>\docs\_build\html\index.html
+
+* ``file:///`` can be used for clarity.
+  
+.. code-block::
+   
+    start chrome file:///C:\Users\<<path details>>\docs\_build\html\index.html
+
+* Add the VSCode extension ``open in browser`` to add the command ``open in default browser`` to the pop up menu when right clicking the html file in VSCode explorer panel.
+
 
 ----
 
