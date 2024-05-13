@@ -23,7 +23,6 @@ Python -> Sphinx -> VSCode -> reStructuredText -> GitHub -> ReadTheDocs
     :numbered:
 
     setup/Introduction.rst
-    setup/Requirements.rst
     setup/Python.rst
     setup/Sphinx.rst
     setup/Jupyter.rst
