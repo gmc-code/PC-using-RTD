@@ -24,6 +24,7 @@ Install VSCode reStructuredText extension
 * In VSCode, create your documentation as plain text source files in reStructuredText (.rst) format.
 * For more on reStructuredText, see :ref:`VSCode reStructuredText`
   
+  
 ----
 
 Install VSCode reStructuredText Syntax highlighting extension
