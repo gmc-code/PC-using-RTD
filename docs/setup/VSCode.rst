@@ -49,3 +49,13 @@ Install VSCode Esbonio extension
 * The Esbonio extension integrates the esbonio language server into VSCode.
 * The esbonio language server aims to make it easier to work with Sphinx documentation projects by providing completion suggestions.
 
+----
+
+VSCode Path Separator
+------------------------------
+
+* In the settings editor, search for Explorer: Copy Relative Path Separator.
+* Set the value to / (forward slash). 
+* This will ensure that when you right-click on project files and select Copy Relative Path, the path separator will be a forward slash.
+* This will be hand when adding files to the index.rst file.
+  
