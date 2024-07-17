@@ -11,6 +11,18 @@ Install Python
 
     python --version
 
+| For more info run a python file with this code.
+
+.. code-block::
+
+    import sys
+    print("Python version")
+    print(sys.version)
+    print("Version info.")
+    print(sys.version_info)
+    print("Python Path")
+    print(sys.executable)
+
 * Download and install Python from https://www.python.org/downloads/.
 * Check the checkbox to update the path variable when installing.
   
