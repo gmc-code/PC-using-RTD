@@ -159,3 +159,17 @@ VSCode starting from **Cloning a repository**
 * For steps involved in starting by cloning a repository see: https://www.youtube.com/watch?v=sz2EM-gkEs0&list=PLpPVLI0A0OkLBWbcctmGxxF6VHWSQw1hi&index=2
 * If the repository is not a restructuredtext project with .rst files, ``sphinx-quickstart`` may need to be run once the repo is cloned to the local machine.
 
+----
+
+Update to changed repository name in Github
+---------------------------------------------
+
+| Change the Remote URL to the new repository name:
+| Run the following command, replacing new-username and new-repository-name with your new GitHub username and repository name:
+| ``git remote set-url origin https://github.com/new-username/new-repository-name.git``
+
+| Verify the Change:
+| Check the remote URL again to ensure it has been updated:
+| ``git remote -v``
+
+
