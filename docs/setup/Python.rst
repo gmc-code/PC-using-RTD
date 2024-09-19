@@ -88,6 +88,8 @@ Update pip
 
     python.exe -m pip install --upgrade pip
 
+| The -m flag tells Python to run the pip module as a script. This allows you to use pip directly from the command line, even if it's not installed as a standalone executable.
+
 ----
 
 .. _Python requirements:
@@ -101,21 +103,21 @@ Install python packages via requirements.txt
 
 .. code-block::
     
-    Sphinx # ==7.4.5
+    Sphinx # ==8.0.2
     sphinx-copybutton  #==0.5.2
-    sphinx-rtd-theme  #==2.0.0
+    sphinx-rtd-theme  #==3.0.0rc1
     sphinx-togglebutton  #==0.3.2
-    sphinx_design  #==0.6.0
+    sphinx_design  #==0.6.1
 
 | Alternatively, install each package individually as needed:
 
 .. code-block::
     
-    pip install Sphinx==7.4.5
+    pip install Sphinx==8.0.2
     pip install sphinx-copybutton==0.5.2
-    pip install sphinx-rtd-theme==2.0.0
+    pip install sphinx-rtd-theme==3.0.0rc1
     pip install sphinx-togglebutton==0.3.2
-    pip install sphinx_design==0.6.0
+    pip install sphinx_design==0.6.1
     
     
 | Install requirements using the full path to a requirements.txt file placed in the virtual environment:
@@ -136,6 +138,24 @@ Install python packages via requirements.txt
 
     pip install -r "requirements.txt"
 
+----
+
+Updating python packages
+------------------------------------------------------------
+
+| To upgrade a package:
+
+.. code-block::
+    
+    cd VENVNAME
+    pip install --upgrade -r requirements.txt
+
+* ``-U`` can be used instead of ``--upgrade``
+
+.. code-block::
+
+    pip install -U -r requirements.txt
+    
 ----
 
 Updating python packages in a requirements file
@@ -180,6 +200,13 @@ Updating python packages in a requirements file
 .. code-block::
 
     pip list -o
+
+or 
+
+.. code-block::
+
+    pip list --outdated
+
 
 ----
 

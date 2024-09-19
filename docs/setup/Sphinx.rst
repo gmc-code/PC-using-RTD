@@ -39,11 +39,11 @@ Dependencies
 
 .. code-block::
     
-    pip install Sphinx==7.3.7
+    pip install Sphinx==8.0.2
     pip install sphinx-copybutton==0.5.2
-    pip install sphinx-rtd-theme==2.0.0
+    pip install sphinx-rtd-theme==3.0.0rc1
     pip install sphinx-togglebutton==0.3.2
-    pip install sphinx_design==0.5.0
+    pip install sphinx_design==0.6.1
 
 ----
 
@@ -66,14 +66,14 @@ Install Sphinx
 
 .. code-block::
     
-    pip install sphinx==7.3.7
+    pip install sphinx==8.0.2
 
 
 * To upgrade include the ``-U`` flag.
 
 .. code-block::
     
-    pip install -U sphinx==7.3.7
+    pip install -U sphinx==8.0.2
 
 
 * Check the installed version with:
