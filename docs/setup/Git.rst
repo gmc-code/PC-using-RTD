@@ -3,7 +3,7 @@ Git
 ==============================
 
 | Git is a Distributed Version Control System (DVCS).
-| It can be used to track code history, work on different branches of the code, and sync remote and local versions of the code. 
+| It can be used to track code history, work on different branches of the code, and sync remote and local versions of the code.
 | Git is a command line tool that can be integrated into other software such as VSCode.
 | GitHub hosts repositories and it deeply integrated with Git.
 | See: https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
@@ -14,7 +14,7 @@ Git
 Install Git
 ------------------------------
 
-Download and install git version 2.45 (as of 2024, or newer) from https://git-scm.com/. Use all defaults.
+Download and install git version 2.47.1 (as of 2025, or newer) from https://git-scm.com/. Use all defaults.
 
 ----
 
@@ -23,7 +23,7 @@ Check installed version of Git
 
 From the terminal in VSCode or from the command prompt, check the version of Git that is installed.
 
-Press :kbd:`Win` + :kbd:`X` + :kbd:`C` to open the Command prompt. 
+Press :kbd:`Win` + :kbd:`X` + :kbd:`C` to open the Command prompt.
 
 From the cmd prompt:
 
@@ -36,11 +36,11 @@ From the cmd prompt:
 Set Git Name & Email
 ------------------------------
 
-When you install Git, set your user name and email address. 
-This is important because every Git commit uses this information, 
+When you install Git, set your user name and email address.
+This is important because every Git commit uses this information,
 and it's used in the commits you create.
 
-Press :kbd:`Win` + :kbd:`X` + :kbd:`C` to open the Command prompt. 
+Press :kbd:`Win` + :kbd:`X` + :kbd:`C` to open the Command prompt.
 
 From the cmd prompt:
 
