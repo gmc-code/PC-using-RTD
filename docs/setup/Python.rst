@@ -5,6 +5,15 @@ Python
 Install Python
 ------------------------------
 
+* Download and install Python from https://www.python.org/downloads/.
+* Check the checkbox to update the path variable when installing.
+
+* Manually update path if it wasn't automatically done during installation.
+* In windows search enter "edit the system environment variables" to edit the environment variables.
+* Edit the path variable to include the path to the installed python version.
+* Restart is usually needed to update the system path.
+
+
 * Check the version of python installed from the command line.
 
 .. code-block::
@@ -23,14 +32,8 @@ Install Python
     print("Python Path")
     print(sys.executable)
 
-* Download and install Python from https://www.python.org/downloads/.
-* Check the checkbox to update the path variable when installing.
-  
-* Manually update path if it wasn't automatically done during installation.
-* In windows search enter "edit the system environment variables" to edit the environment variables. 
-* Edit the path variable to include the path to the installed python version.
-* Restart is usually needed to update the system path.
-  
+
+
 ----
 
 Create a python Virtual environment
@@ -49,7 +52,7 @@ Create a python Virtual environment
 .. code-block::
 
     python -m venv VENVNAME
-    
+
 | If there are different versions of python installed, use the full path to the version required to create the virtual environment.
 | <USERNAME> used in the paths below will be different for each user.
 | e.g. ``C:\Users\USERNAME\AppData\Local\Programs\Python\Python312\python.exe``
@@ -62,7 +65,7 @@ Create a python Virtual environment
 | Activate the virtual environment:
 
 .. code-block::
-    
+
     "C:\Users\USERNAME\VENVNAME\Scripts\activate.bat"
 
 ----
@@ -73,7 +76,7 @@ Using the python Virtual environment in VSCode
 | VSCode allows the use of different python environments.
 | To use the python python Virtual environment in VSCode:
 
-    #. Choose **View: Command Palette**. 
+    #. Choose **View: Command Palette**.
     #. Into the drop down search field, type: **Python : Select Interpreter**
     #. Choose the one listed that refers to the newly created **VENVNAME**.
 
@@ -102,7 +105,7 @@ Install python packages via requirements.txt
 | There is no need to include the optional modules below, other than Sphinx, unless they are going to be useful.
 
 .. code-block::
-    
+
     Sphinx # ==8.0.2
     sphinx-copybutton  #==0.5.2
     sphinx-rtd-theme  #==3.0.0rc1
@@ -112,18 +115,18 @@ Install python packages via requirements.txt
 | Alternatively, install each package individually as needed:
 
 .. code-block::
-    
+
     pip install Sphinx==8.0.2
     pip install sphinx-copybutton==0.5.2
     pip install sphinx-rtd-theme==3.0.0rc1
     pip install sphinx-togglebutton==0.3.2
     pip install sphinx_design==0.6.1
-    
-    
+
+
 | Install requirements using the full path to a requirements.txt file placed in the virtual environment:
 
 .. code-block::
-    
+
     pip install -r "C:\Users\USERNAME\VENVNAME\requirements.txt"
 
 | If the terminal prompt is already in the path ``"C:\Users\USERNAME\"`` then use this:
@@ -146,7 +149,7 @@ Updating python packages
 | To upgrade a package:
 
 .. code-block::
-    
+
     cd VENVNAME
     pip install --upgrade -r requirements.txt
 
@@ -155,7 +158,7 @@ Updating python packages
 .. code-block::
 
     pip install -U -r requirements.txt
-    
+
 ----
 
 Updating python packages in a requirements file
@@ -166,7 +169,7 @@ Updating python packages in a requirements file
 | From the command line change directory, ``cd`` to the folder with the ``requirements.txt`` file and use:
 
 .. code-block::
-    
+
     cd VENVNAME
     pip install --upgrade -r requirements.txt
 
@@ -188,7 +191,7 @@ Updating python packages in a requirements file
     pip show sphinx_design
     pip show docutils
 
-    
+
 * To get all the installed version numbers, check the output from typing in the VSCode terminal:
 
 .. code-block::
@@ -201,7 +204,7 @@ Updating python packages in a requirements file
 
     pip list -o
 
-or 
+or
 
 .. code-block::
 
@@ -213,12 +216,12 @@ or
 Save package list to requirements file
 ------------------------------------------------------------
 
-| After setting up a project, there may be a need to create a new the virtual environment with a new version of python, but with all the libraries in the the virtual environment 
+| After setting up a project, there may be a need to create a new the virtual environment with a new version of python, but with all the libraries in the the virtual environment
 
 | A ``requirements.txt`` file can be saved and used to create a new venv:
 
 .. code-block::
-    
+
     pip freeze > requirements.txt
 
 ----
@@ -231,7 +234,7 @@ Updating python packages
 | Enter:
 
 .. code-block::
-    
+
     pip freeze | %{$_.split('==')[0]} | %{pip install --upgrade $_}
 
 ----
@@ -239,7 +242,7 @@ Updating python packages
 Uninstalling all python packages
 ----------------------------------
 
-| This is not recommended, but is here for reference purposes. 
+| This is not recommended, but is here for reference purposes.
 | To remove all installed python packages, leaving just the built in modules, from the command line:
 
 .. code-block::
@@ -266,11 +269,11 @@ Update virtual environment by reinstalling it
 | Make sure you have a `requirements.txt` file that lists all the packages you need.
 
 1. **Deactivate** the virtual environment if it's currently active. You can do this by typing `deactivate` in your terminal and pressing Enter.
-2. **Navigate** ot the directory in the terminal. e.g. `cd C:/Users/USERNAME/` 
-3. **Delete** the virtual environment. Be careful with this step as it will remove all the packages installed in the virtual environment. You can do this by typing `Remove-Item -Path VENVNAME -Recurse` in your powershell terminal and pressing Enter. 
-4. **Create** a new virtual environment with the updated Python version. You can do this by typing `python -m venv VENVNAME` in your terminal and pressing Enter. 
+2. **Navigate** ot the directory in the terminal. e.g. `cd C:/Users/USERNAME/`
+3. **Delete** the virtual environment. Be careful with this step as it will remove all the packages installed in the virtual environment. You can do this by typing `Remove-Item -Path VENVNAME -Recurse` in your powershell terminal and pressing Enter.
+4. **Create** a new virtual environment with the updated Python version. You can do this by typing `python -m venv VENVNAME` in your terminal and pressing Enter.
 5. **Activate** the new virtual environment. You can do this by typing `C:\Users\USERNAME\VENVNAME\Scripts\activate.bat` in your terminal and pressing Enter.
-6. **Install** the required packages. Place a `requirements.txt` file that lists all the packages you need. You can do this by typing `pip install -r requirements.txt` in your terminal and pressing Enter. 
+6. **Install** the required packages. Place a `requirements.txt` file that lists all the packages you need. You can do this by typing `pip install -r requirements.txt` in your terminal and pressing Enter.
 
 .. code-block::
 
