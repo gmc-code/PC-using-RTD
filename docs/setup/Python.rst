@@ -5,7 +5,8 @@ Python
 Install Python
 ------------------------------
 
-* Download and install Python from https://www.python.org/downloads/.
+* Download and install Python from: https://www.python.org/downloads/.
+* OLder versions can be found at: https://test.python.org/downloads/.
 * Check the checkbox to update the path variable when installing.
 
 * Manually update path if it wasn't automatically done during installation.
@@ -66,7 +67,7 @@ Create a python Virtual environment
 
 .. code-block::
 
-    "C:\Users\USERNAME\VENVNAME\Scripts\activate.bat"
+    "C:\Users\USERNAME\VENVNAME\Scripts\activate"
 
 ----
 
