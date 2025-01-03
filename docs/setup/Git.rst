@@ -57,6 +57,17 @@ From the cmd prompt, check or confirm your settings with:
 
 ----
 
+Set default branch in github
+-------------------------------------
+
+Change the default github branch from master to main::
+
+.. code-block::
+
+    git config --global init.defaultBranch main
+
+----
+
 Git in VSCode
 ------------------------------
 
