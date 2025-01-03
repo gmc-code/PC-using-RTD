@@ -21,8 +21,8 @@ VSCode starting from **creating a new empty repository**
 ------------------------------------------------------------
 
 * Sign in at github
-* Create new repo at github: https://github.com/ or at https://github.com/mygithubname?tab=repositories. 
-* Name the new repo the same name as the project folder stored locally on your computer. 
+* Create new repo at github: https://github.com/ or at https://github.com/mygithubname?tab=repositories.
+* Name the new repo the same name as the project folder stored locally on your computer.
 * See :ref:`VSCode Project Folder and Sphinx`
 * e.g. https://github.com/mygithubname/myrepo
 * Do not create a readme file at this time.
@@ -63,7 +63,7 @@ Manually, step by step:
 * Click the ``tick icon`` to commit changes.
 
 
-Alternatively, hook up remote branch in the VSCode terminal. 
+Alternatively, hook up remote branch in the VSCode terminal.
 Run from within the main VScode folder that the docs folder is within.
 
 .. code-block::
@@ -109,13 +109,13 @@ VSCode GitHub updates
 VSCode GitHub controls
 ------------------------------
 
-* Press :kbd:`ctrl` + :kbd:`shift` + :kbd:`P` to open the Command Palette. 
+* Press :kbd:`ctrl` + :kbd:`shift` + :kbd:`P` to open the Command Palette.
 * Start typing "Git" to see the various commands.
 
 
 See more: https://docs.microsoft.com/en-us/learn/modules/introduction-to-github-visual-studio-code/
 
-Recommended youtube: 
+Recommended youtube:
 https://www.youtube.com/watch?v=3Tn58KQvWtU&list=PLpPVLI0A0OkLBWbcctmGxxF6VHWSQw1hi
 
 https://www.youtube.com/watch?v=ghL-KlAhBnc uses the command palette in VSCode more.
@@ -126,11 +126,11 @@ VSCode Git staging and commits
 ------------------------------------------------------------
 
 * Click on the ``source control icon`` on the left sidebar
-* Any changes to files or new files will be listed under **Changes**. 
-* ``U`` stands for untracked (new files not yet added to staging area). 
+* Any changes to files or new files will be listed under **Changes**.
+* ``U`` stands for untracked (new files not yet added to staging area).
 * ``M`` stands for modified.
 * ``D`` stands for delete (which can result from a name change to a file).
-  
+
 ----
 
 Changes and Staged Changes
@@ -158,6 +158,23 @@ VSCode starting from **Cloning a repository**
 
 * For steps involved in starting by cloning a repository see: https://www.youtube.com/watch?v=sz2EM-gkEs0&list=PLpPVLI0A0OkLBWbcctmGxxF6VHWSQw1hi&index=2
 * If the repository is not a restructuredtext project with .rst files, ``sphinx-quickstart`` may need to be run once the repo is cloned to the local machine.
+
+To download (clone) a repository from GitHub to your local folder, you can use the following steps:
+
+Navigate to your desired local folder:
+
+.. code-block::
+
+    cd /path/to/your/folder
+
+Clone the repository. Replace github_username with the username. Replace github_repository with the repository name.
+
+.. code-block::
+
+    git clone https://github.com/github_username/github_repository.git
+
+This will create a new folder named github_repository in your current directory with all the files from the repository.
+
 
 ----
 
