@@ -175,6 +175,23 @@ Clone the repository. Replace github_username with the username. Replace github_
 
 This will create a new folder named github_repository in your current directory with all the files from the repository.
 
+-----
+
+Connecting a Local Git repository Folder to a New GitHub Repository
+-----------------------------------------------------------------------
+
+| Follow these steps to push your local Git repository folder to a new GitHub repository.
+
+.. code-block::
+
+    # Remove the link to the existing Git repository (if any):
+    git remote remove origin
+
+    # Link to the new GitHub repository:
+    git remote add origin https://github.com/github_username/github_repository.git
+
+    # Push your changes to the new repository:
+    git push -u origin main
 
 ----
 
