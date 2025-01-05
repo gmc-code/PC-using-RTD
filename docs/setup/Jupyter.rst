@@ -2,9 +2,9 @@
 Jupyter
 ==============================
 
-This is optional. 
+This is optional.
 
-It is possible to use Jupyter in Sphinx files. 
+It is possible to use Jupyter in Sphinx files.
 
 For the ability to edit the python code live and view the output there are two options:
     * jupyter-sphinx
@@ -15,7 +15,7 @@ For the ability to view the output from jupyter notebook files use:
 
 For the ability to convert the docs rst files to jupyter notebook files use:
     * sphinxcontrib-jupyter
-  
+
 ----
 
 -------------------
@@ -39,7 +39,7 @@ Install the jupyter-sphinx extension
 .. code-block::
 
     pip install jupyter-sphinx
-    
+
 ----
 
 docs/requirements.txt
@@ -48,9 +48,9 @@ docs/requirements.txt
 * Add this text in the requirements file ``docs/requirements.txt``:
 
 .. code-block::
-    
+
     jupyter-sphinx==0.5.3
-    
+
 ----
 
 VSCode conf.py file
@@ -120,7 +120,6 @@ sphinx-thebe
 -------------------
 
 | The sphinx-thebe extension makes code cells interactive with a kernel provided by Thebe and Binder.
-| The drawback is that is is not compatible with the latest version of Sphinx. Instead it requires sphinx==4.5.0.
 
 ----
 
@@ -135,7 +134,7 @@ Install the sphinx-thebe extension
 .. code-block::
 
     pip install sphinx-thebe
-    
+
 ----
 
 docs/requirements.txt
@@ -144,9 +143,9 @@ docs/requirements.txt
 * Add this text in the requirements file ``docs/requirements.txt``:
 
 .. code-block::
-    
-    sphinx==7.3.7
-    sphinx-thebe==0.3.1 
+
+    sphinx==8.1.3
+    sphinx-thebe==0.3.1
 
 ----
 
@@ -168,7 +167,7 @@ Usage
 
 * Interactive cells are activated with a button click.
 * Insert the button anywhere using:
-  
+
 .. code-block::
 
     .. thebe-button:: Activate Jupyter
@@ -212,7 +211,7 @@ Install the nbsphinx extension
 .. code-block::
 
     pip install nbsphinx
-    
+
 * To edit .ipynb files in VSCode install the ipykernel package.
 
 ----
@@ -223,13 +222,13 @@ VSCode Jupyter extension
 * In VSCode, click the Extensions icon in the left side bar.
 * Type ``Jupyter`` into the search box.
 * Install the Jupyter extension.
-  
+
 * To edit .ipynb files in VSCode install the python ipykernel package.
 * See: https://pypi.org/project/ipykernel/
 * See: https://ipython.org/
-  
+
 .. code-block::
-    
+
     pip install ipykernel
 
 ----
@@ -240,8 +239,8 @@ docs/requirements.txt
 * Add this text in the requirements file ``docs/requirements.txt``:
 
 .. code-block::
-    
-    nbsphinx==0.9.4
+
+    nbsphinx==0.9.6
 
 ----
 
@@ -284,7 +283,7 @@ Install the sphinxcontrib-jupyter extension
 .. code-block::
 
     pip install sphinxcontrib-jupyter
-    
+
 ----
 
 VSCode conf.py file

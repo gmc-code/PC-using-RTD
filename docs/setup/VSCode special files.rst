@@ -20,7 +20,7 @@ Add files
 
     type nul > requirements.txt
     type nul > .gitignore
-    
+
 * Add the ``_templates/breadcrumbs.html`` file using the VSCode terminal. Run from within the **docs** folder.
 
 .. code-block::
@@ -32,30 +32,30 @@ Add files
 
     If using windows powershell as the terminal, adding files from the terminal can be done using the following:
     ``ni filename``
-    e.g. ni requirements.txt 
+    e.g. ni requirements.txt
 
 ----
 
 docs/requirements.txt
 ------------------------------
 
-* Use a requirements file ``docs/requirements.txt`` to specify the version of Sphinx and extensions to sphinx for read the docs.
+* Use a requirements file ``docs/requirements.txt`` to specify Sphinx and extensions to sphinx for read the docs.
 * See: https://docs.readthedocs.io/en/stable/guides/specifying-dependencies.html
-  
-* Use this text in the requirements file with the version numbers you are using:
+
+* Use this text in the requirements file with specific version numbers if there is a reason for using specific versions:
 * As of May 2024, read the docs uses python 3.12.
 
-.. code-block:: 
+.. code-block::
 
-    Sphinx==7.3.7
-    sphinx-copybutton==0.5.2
-    sphinx-rtd-theme==2.0.0
-    sphinx-togglebutton==0.3.2
-    sphinx_design==0.5.0
+    Sphinx # ==8.1.3
+    sphinx-copybutton  #==0.5.2
+    sphinx-rtd-theme  #==3.0.2
+    sphinx-togglebutton  #==0.3.2
+    sphinx_design  #==0.6.1
 
 
 * If the version numbers are left off, read the docs will fetch the latest version that is compatible with the version of python it is using.
-* There is no need to include explicitly docutils, since it will be taken care of along with the Sphinx requirement. 
+* There is no need to include explicitly docutils, since it will be taken care of along with the Sphinx requirement.
 
 .. code-block::
 
@@ -67,7 +67,7 @@ docs/requirements.txt
     sphinx-design
     sphinx-togglebutton
 
-    # for interactive jupyter 
+    # for interactive jupyter
     notebook
     jupyter-sphinx
     sphinx-thebe
