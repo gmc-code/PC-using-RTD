@@ -144,7 +144,7 @@ docs/requirements.txt
 
 .. code-block::
 
-    sphinx==8.1.3
+    sphinx==8.2.3
     sphinx-thebe==0.3.1
 
 ----

@@ -39,11 +39,19 @@ Dependencies
 
 .. code-block::
 
-    pip install Sphinx==8.1.3
+    pip install Sphinx==8.2.3
     pip install sphinx-copybutton==0.5.2
     pip install sphinx-rtd-theme==3.0.2
     pip install sphinx-togglebutton==0.3.2
     pip install sphinx_design==0.6.1
+
+
+
+| See the python section for using a requirements.txt file then using:
+
+.. code-block::
+
+    pip install -r requirements.txt
 
 ----
 
@@ -72,7 +80,7 @@ Install Sphinx
 
 .. code-block::
 
-    pip install sphinx==8.1.3
+    pip install sphinx==8.2.3
 
 
 * To upgrade include the ``-U`` flag.
