@@ -16,7 +16,7 @@ sphinx_rtd_theme
 * The Project information section of ``conf.py`` should have
 
 .. code-block::
-    
+
     import sphinx_rtd_theme
 
 * Change ``html_theme = 'alabaster'`` to ``html_theme = 'sphinx_rtd_theme'``
@@ -35,7 +35,7 @@ sphinx_rtd_theme
 
 ----
 
-sphinx-rtd-theme Theme Options 
+sphinx-rtd-theme Theme Options
 ------------------------------
 
 * See: https://sphinx-rtd-theme.readthedocs.io/en/latest/configuring.html
@@ -45,10 +45,9 @@ sphinx-rtd-theme Theme Options
 
     html_theme_options = {
         'logo_only': False,
-        'display_version': False,  # False so doc version not shown
         'prev_next_buttons_location': 'both',  # Can be bottom, top, both , or None
         'style_external_links': True,  # True to Add an icon next to external links
-        'style_nav_header_background': 'linear-gradientlinear-gradient(to right, blueviolet 15%, limegreen 50%, royalblue 80%)',  # blue
+        'style_nav_header_background': 'linear-gradient(to right, blueviolet 15%, limegreen 50%, royalblue 80%)',  # blue
         # Toc options
         'collapse_navigation': False,  # False so nav entries have the [+] icons
         'sticky_navigation': False,  # False so the nav does not scroll
@@ -56,6 +55,7 @@ sphinx-rtd-theme Theme Options
         'includehidden': True,  # displays toctree that are hidden
         'titles_only': False  # False so page subheadings are in the nav.
     }
+
 
 ----
 

@@ -233,12 +233,12 @@ button.copybtn svg {
     position: absolute;
     left: 2.4px;  /* The offsets of the entire circle/number bullet */
     top: 10px;
-    width: 35px;  /* The width of the bullet circle */
-    height: 36px;  /* The height of the bullet circle */
+    width: 31px;  /* The width of the bullet circle */
+    height: 32px;  /* The height of the bullet circle */
     margin: 1px 12px;  /* Margin around the bullet number/circle */
     padding-top: 3px;  /* Padding between the bullet number and bullet circle */
-    font-size: 20px;
-    line-height: 28px;  /* Height of the bullet number line (functions as padding-top) */
+    font-size: 16px;
+    line-height: 22px;  /* Height of the bullet number line (functions as padding-top) */
     text-align: center;
     background-color: #313131;
     color: #fff;
