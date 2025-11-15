@@ -35,7 +35,8 @@ From Project folder
 
 .. code-block::
 
-    sphinx-build -b html docs build
+    sphinx-build -b html docs docs/_build
+
 
 From Project docs folder
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -48,18 +49,11 @@ From Project docs folder
 
 .. code-block::
 
-    make clean
-    make html
-
-.. tip::
-    Sometimes ``.\`` will be needed with ``make``
-
-.. code-block::
-
         .\make clean
         .\make html
 
-* ``make clean`` is needed first since Sphinx only rebuilds pages that have changed.
+* ``.\make clean`` is needed first since Sphinx only rebuilds pages that have changed.
+* On Windows, especially in PowerShell, the ``.\`` prefix simply means “run a program that's in the current directory.”
 
 
 View docs as html
