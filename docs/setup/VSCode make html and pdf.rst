@@ -13,18 +13,35 @@ The second and third option require the use of Sphinx to build the html output.
 
 ----
 
-View docs as html in VSCode
-------------------------------
+Install the reStructuredText extension in VSCode
+---------------------------------------------------------
 
 * Install the ``reStructuredText`` extension in VSCode, then use the Open Preview to the Side icon at the top right of the window to preview an open .rst file.
 
 ----
 
-View docs as html
+Build html
 ------------------------------
 
+
+From Project folder
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* Make sure that the terminal folder is the project folder.
 * Press :kbd:`ctrl` + :kbd:`shift` + :kbd:`\`` to open the VSCode terminal.
+* eg: C:/projects/project-name
+
+* Build an html version of the docs
+
+.. code-block::
+
+    sphinx-build -b html docs build
+
+From Project docs folder
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 * Make sure that the terminal folder is the docs folder.
+* Press :kbd:`ctrl` + :kbd:`shift` + :kbd:`\`` to open the VSCode terminal.
 * eg: C:/projects/project-name/docs
 
 * Build an html version of the docs.
@@ -45,8 +62,11 @@ View docs as html
 * ``make clean`` is needed first since Sphinx only rebuilds pages that have changed.
 
 
+View docs as html
+------------------------------
+
 * Get the full file path to the file: ``\docs\_build\html\index.html`` and paste it into a browser.
-  
+
 * The html can also be viewed in the browser using the VSCode terminal.
 
 .. code-block::
@@ -54,9 +74,9 @@ View docs as html
     start chrome C:\Users\<<path details>>\docs\_build\html\index.html
 
 * ``file:///`` can be used for clarity.
-  
+
 .. code-block::
-   
+
     start chrome file:///C:\Users\<<path details>>\docs\_build\html\index.html
 
 * Add the VSCode extension ``open in browser`` to add the command ``open in default browser`` to the pop up menu when right clicking the html file in VSCode explorer panel.
