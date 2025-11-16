@@ -99,3 +99,11 @@ html_theme_options = {
 html_favicon = "_static/favicon.ico"
 html_logo = "_static/logo_navyblue.png"
 
+# ------------latex
+latex_elements = {
+    'preamble': r'''
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+'''
+}
+latex_engine = 'xelatex'

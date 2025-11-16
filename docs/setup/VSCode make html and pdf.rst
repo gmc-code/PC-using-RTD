@@ -31,11 +31,12 @@ From Project folder
 * Press :kbd:`ctrl` + :kbd:`shift` + :kbd:`\`` to open the VSCode terminal.
 * eg: C:/projects/project-name
 
-* Build an html version of the docs
+* Build an html version of the docs in the html folder within the _build folder inside the docs folder.
 
 .. code-block::
 
-    sphinx-build -b html docs docs/_build
+    sphinx-build -b html docs docs/_build/html
+
 
 
 From Project docs folder
@@ -85,19 +86,44 @@ Make the latex build then create the pdf from the .tex file.
 
 ----
 
-Make latex
-------------------------------
+From Project folder
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+* Make sure that the terminal folder is the project folder.
 * Press :kbd:`ctrl` + :kbd:`shift` + :kbd:`\`` to open the VSCode terminal.
+* eg: C:/projects/project-name
+
+* Build a latex version of the docs in the latex folder within the _build folder inside the docs folder.
+
+| Run in sequence
+
+.. code-block::
+
+    sphinx-build -b latex docs docs/_build/latex
+
+.. code-block::
+
+    cd docs/_build/latex
+
+.. code-block::
+
+    xelatex PC-Using-RTD.tex
+
+
+
+From Project docs folder
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 * Make sure that the terminal folder is the docs folder.
+* Press :kbd:`ctrl` + :kbd:`shift` + :kbd:`\`` to open the VSCode terminal.
 * eg: C:/projects/project-name/docs
 
 * Build a latex version of the docs.
 
 .. code-block::
 
-    make clean
-    make latex
+        .\make clean
+        .\make latex
 
 
 * Change directory to ``_build/latex``
@@ -112,4 +138,17 @@ Make latex
 .. code-block::
 
     xelatex PC-Using-RTD.tex
+
+* Run the xelatex command a second time to ensure that all references are updated, especially the table of contents.
+
+.. code-block::
+
+    xelatex PC-Using-RTD.tex
+
+
+* Open the pdf file in the Adobe reader or other pdf viewer.
+
+.. code-block::
+
+    start PC-Using-RTD.pdf
 
