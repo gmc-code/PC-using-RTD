@@ -1,4 +1,4 @@
-sphinx==9.0.4 # ==8.2.3
+sphinx==8.2.3
 sphinx-copybutton
 sphinx-rtd-theme
 sphinx-togglebutton
@@ -7,6 +7,8 @@ sphinx-new-tab-link
 
 # docutils>=0.20,<0.22
 
+# sphinx-design 0.6.1 depends on sphinx<9 and >=6
+# sphinx==9.0.4 incompatible
 
 # sphinx 8.2.3 requires docutils<0.22,>=0.20
 # sphinx-rtd-theme 3.0.2 requires docutils<0.22,>0.18,
