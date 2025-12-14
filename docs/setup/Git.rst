@@ -14,7 +14,7 @@ Git
 Install Git
 ------------------------------
 
-Download and install git version 2.47.1 (as of 2025, or newer) from `<https://git-scm.com/>`_. Use all defaults.
+Download and install git version 2.52 (as of 2026, or newer) from `<https://git-scm.com/>`_. Use all defaults.
 
 ----
 
@@ -60,7 +60,7 @@ From the cmd prompt, check or confirm your settings with:
 Set default branch in github
 -------------------------------------
 
-Change the default github branch from master to main::
+Change the default github branch from master to main.
 
 .. code-block::
 

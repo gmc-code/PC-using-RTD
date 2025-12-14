@@ -46,7 +46,13 @@ Dependencies
     pip install sphinx_design
     pip install sphinx-new-tab-link
 
-| Sphinx 8.2.3 requires docutils>=0.20,<0.22
+
+| sphinx-design 0.6.1 depends on sphinx<9 and >=6
+| sphinx==9.0.4 incompatible
+
+| sphinx 8.2.3 requires docutils<0.22,>=0.20
+| sphinx-rtd-theme 3.0.2 requires docutils<0.22,>0.18, and sphinx 8.2.3
+| docutils 0.22.2 is incompatible.
 
 | See the python section for using a requirements.txt file then using:
 
