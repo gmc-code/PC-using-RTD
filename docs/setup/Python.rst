@@ -107,22 +107,24 @@ Install python packages via requirements.txt
 
 .. code-block::
 
-    Sphinx # ==8.2.3
-    sphinx-copybutton  #==0.5.2
-    sphinx-rtd-theme  #==3.0.2
-    sphinx-togglebutton  #==0.3.2
-    sphinx_design  #==0.6.1
+    sphinx==8.2.3
+    sphinx-copybutton
+    sphinx-rtd-theme
+    sphinx-togglebutton
+    sphinx_design
+    sphinx-new-tab-link
+
 
 | Alternatively, install each package individually as needed:
 
 .. code-block::
 
     pip install Sphinx==8.2.3
-    pip install sphinx-copybutton==0.5.2
-    pip install sphinx-rtd-theme==3.0.2
-    pip install sphinx-togglebutton==0.3.2
-    pip install sphinx_design==0.6.1
-
+    pip install sphinx-copybutton
+    pip install sphinx-rtd-theme
+    pip install sphinx-togglebutton
+    pip install sphinx_design
+    pip install sphinx-new-tab-link
 
 | Install requirements using the full path to a requirements.txt file placed in the virtual environment:
 
@@ -190,6 +192,7 @@ Updating python packages in a requirements file
     pip show sphinx-copybutton
     pip show sphinx-togglebutton
     pip show sphinx_design
+    pip show sphinx-new-tab-link
     pip show docutils
 
 

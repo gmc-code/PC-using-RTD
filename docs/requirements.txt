@@ -11,7 +11,7 @@ sphinx-new-tab-link
 # sphinx==9.0.4 incompatible
 
 # sphinx 8.2.3 requires docutils<0.22,>=0.20
-# sphinx-rtd-theme 3.0.2 requires docutils<0.22,>0.18,
+# sphinx-rtd-theme 3.0.2 requires docutils<0.22,>0.18, and sphinx 8.2.3
 # docutils 0.22.2 is incompatible.
 
 # for interactive jupyter
