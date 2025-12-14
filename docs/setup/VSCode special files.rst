@@ -40,18 +40,19 @@ docs/requirements.txt
 ------------------------------
 
 * Use a requirements file ``docs/requirements.txt`` to specify Sphinx and extensions to sphinx for read the docs.
-* See: https://docs.readthedocs.io/en/stable/guides/specifying-dependencies.html
+* See: `<https://docs.readthedocs.io/en/stable/guides/specifying-dependencies.html>`_
 
 * Use this text in the requirements file with specific version numbers if there is a reason for using specific versions:
-* As of May 2024, read the docs uses python 3.12.
+* As of Dec 2025, read the docs uses python 3.12.
 
 .. code-block::
 
-    Sphinx # ==8.2.3
-    sphinx-copybutton  #==0.5.2
-    sphinx-rtd-theme  #==3.0.2
-    sphinx-togglebutton  #==0.3.2
-    sphinx_design  #==0.6.1
+    sphinx
+    sphinx_rtd_theme
+    sphinx-copybutton
+    sphinx-design
+    sphinx-togglebutton
+    sphinx-new-tab-link
 
 
 * If the version numbers are left off, read the docs will fetch the latest version that is compatible with the version of python it is using.
@@ -66,6 +67,7 @@ docs/requirements.txt
     # useful sphinx extensions
     sphinx-design
     sphinx-togglebutton
+    sphinx-new-tab-link
 
     # for interactive jupyter
     notebook
@@ -78,7 +80,7 @@ docs/.readthedocs.yaml
 ------------------------------
 
 * Use a config file ``.readthedocs.yaml`` so that the requirements file can be used.
-* Get the file contents from the main example at: https://docs.readthedocs.io/en/stable/config-file/v2.html
+* Get the file contents from the main example at: `<https://docs.readthedocs.io/en/stable/config-file/v2.html>`_
 * This sets some of the advanced settings for read the docs that would otherwise be accessed by Admin:Advance Settings in Read The Docs.
 * e.g the setting to Build PDF or ePub are controlled in the .yaml file.
 
@@ -107,7 +109,7 @@ docs/.gitignore
 
     **/.vscode
 
-* See https://git-scm.com/docs/gitignore for use of ``.gitignore``.
+* See `<https://git-scm.com/docs/gitignore>`_ for use of ``.gitignore``.
 
 ----
 
@@ -136,7 +138,7 @@ breadcrumbs.html
     {% block breadcrumbs_aside %}
     {% endblock %}
 
-* See https://docs.readthedocs.io/en/latest/guides/remove-edit-buttons.html
+* See `<https://docs.readthedocs.io/en/latest/guides/remove-edit-buttons.html>`_
 
 ----
 
@@ -155,7 +157,7 @@ Custom css
 
     type nul > _static/css/custom.css
 
-* As per :ref:`custom css`; add the code below to the ``Options for HTML output`` section of ``conf.py`` file to use the custom css.
+* As per :ref:`custom css`; add the code below to the ``Options for html output`` section of ``conf.py`` file to use the custom css.
 
 .. code-block::
 
@@ -163,7 +165,7 @@ Custom css
 
 * See: :download:`custom.css <../_static/css/custom.css>`.
 * This contains custom css including that used in these docs for inline reST and the copy button extension used for code blocks.
-* See more details at: https://docs.readthedocs.io/en/latest/guides/adding-custom-css.html
+* See more details at: `<https://docs.readthedocs.io/en/latest/guides/adding-custom-css.html>`_
 
 ----
 
@@ -172,7 +174,7 @@ Custom logos
 
 * Add a ``logo.png`` file to the ``_static`` folder, with width <= 200 pixels. To save room, use a height <=50 pixels.>
 
-* As per :ref:`custom logo`; add the code below to the ``Options for HTML output`` section of ``conf.py`` file to use the custom logo.
+* As per :ref:`custom logo`; add the code below to the ``Options for html output`` section of ``conf.py`` file to use the custom logo.
 
 .. code-block::
 
@@ -180,11 +182,11 @@ Custom logos
 
 * Add a ``favicon.ico`` file to the ``_static`` folder, with size 32 x 32 pixels.
 
-* As per :ref:`custom logo`; add the code below to the ``Options for HTML output`` section of ``conf.py`` file to use the custom logo.
+* As per :ref:`custom logo`; add the code below to the ``Options for html output`` section of ``conf.py`` file to use the custom logo.
 
 .. code-block::
 
     html_favicon = "_static/favicon.ico"
 
-* See https://www.sphinx-doc.org/en/master/usage/configuration.html
+* See `<https://www.sphinx-doc.org/en/master/usage/configuration.html>`_
 

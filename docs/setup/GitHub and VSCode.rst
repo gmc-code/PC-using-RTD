@@ -6,7 +6,7 @@ GitHub and VSCode
 
 The info below is for the simplest approach where there is only the main branch locally which is being maintained and pushed to the github repository.
 
-For github advice see: https://docs.github.com/en/get-started/importing-your-projects-to-github/importing-source-code-to-github/adding-locally-hosted-code-to-github
+For github advice see: `<https://docs.github.com/en/get-started/importing-your-projects-to-github/importing-source-code-to-github/adding-locally-hosted-code-to-github
 
 ----
 
@@ -21,10 +21,10 @@ VSCode starting from **creating a new empty repository**
 ------------------------------------------------------------
 
 * Sign in at github
-* Create new repo at github: https://github.com/ or at https://github.com/mygithubname?tab=repositories.
+* Create new repo at github: `<https://github.com/>`_ or at `<https://github.com/mygithubname?tab=repositories>`_.
 * Name the new repo the same name as the project folder stored locally on your computer.
 * See :ref:`VSCode Project Folder and Sphinx`
-* e.g. https://github.com/mygithubname/myrepo
+* e.g. `<https://github.com/mygithubname/myrepo>`_
 * Do not create a readme file at this time.
 * Do not select a license at this time.
 * Adding a read me or selecting a license will cause an initial commit and will not show the code to use to create the git on your local machine.
@@ -46,7 +46,7 @@ GitHub settings
 ------------------------------
 
 * Set Repository default branch to ``main`` (``main`` is preferred branch name post 2020).
-* https://github.com/settings/repositories
+* `<https://github.com/settings/repositories>`_
 
 ----
 
@@ -113,12 +113,12 @@ VSCode GitHub controls
 * Start typing "Git" to see the various commands.
 
 
-See more: https://docs.microsoft.com/en-us/learn/modules/introduction-to-github-visual-studio-code/
+See more: `<https://docs.microsoft.com/en-us/learn/modules/introduction-to-github-visual-studio-code/>`_
 
 Recommended youtube:
-https://www.youtube.com/watch?v=3Tn58KQvWtU&list=PLpPVLI0A0OkLBWbcctmGxxF6VHWSQw1hi
+`<https://www.youtube.com/watch?v=3Tn58KQvWtU&list=PLpPVLI0A0OkLBWbcctmGxxF6VHWSQw1hi>`_
 
-https://www.youtube.com/watch?v=ghL-KlAhBnc uses the command palette in VSCode more.
+`<https://www.youtube.com/watch?v=ghL-KlAhBnc>`_ uses the command palette in VSCode more.
 
 ----
 
@@ -156,7 +156,7 @@ Commits
 VSCode starting from **Cloning a repository**
 ------------------------------------------------------------
 
-* For steps involved in starting by cloning a repository see: https://www.youtube.com/watch?v=sz2EM-gkEs0&list=PLpPVLI0A0OkLBWbcctmGxxF6VHWSQw1hi&index=2
+* For steps involved in starting by cloning a repository see: `<https://www.youtube.com/watch?v=sz2EM-gkEs0&list=PLpPVLI0A0OkLBWbcctmGxxF6VHWSQw1hi&index=2>`_
 * If the repository is not a restructuredtext project with .rst files, ``sphinx-quickstart`` may need to be run once the repo is cloned to the local machine.
 
 To download (clone) a repository from GitHub to your local folder, you can use the following steps:

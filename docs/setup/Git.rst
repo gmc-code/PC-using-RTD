@@ -6,15 +6,15 @@ Git
 | It can be used to track code history, work on different branches of the code, and sync remote and local versions of the code.
 | Git is a command line tool that can be integrated into other software such as VSCode.
 | GitHub hosts repositories and it deeply integrated with Git.
-| See: https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
-| See: https://marklodato.github.io/visual-git-guide/index-en.html
+| See: `<https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control>`_
+| See: `<https://marklodato.github.io/visual-git-guide/index-en.html>`_
 
 ----
 
 Install Git
 ------------------------------
 
-Download and install git version 2.47.1 (as of 2025, or newer) from https://git-scm.com/. Use all defaults.
+Download and install git version 2.47.1 (as of 2025, or newer) from `<https://git-scm.com/>`_. Use all defaults.
 
 ----
 
@@ -73,9 +73,9 @@ Git in VSCode
 
 Visual Studio Code has git support built in.
 
-For use of git in VSCode see: https://code.visualstudio.com/docs/editor/versioncontrol
+For use of git in VSCode see: `<https://code.visualstudio.com/docs/editor/versioncontrol>`_
 
-For an into video for use in VSCode see: https://www.youtube.com/watch?v=wMqukSKYcvU
+For an into video for use in VSCode see: `<https://www.youtube.com/watch?v=wMqukSKYcvU>`_
 
 The main features are:
 

@@ -2,7 +2,7 @@
 Sphinx
 ==============================
 
-Sphinx is a documentation generator. This means that it takes source files in plain text, and generates HTML files. In our case, it takes plain text files in reStructuredText format, and outputs HTML.
+Sphinx is a documentation generator. This means that it takes source files in plain text, and generates html files. In our case, it takes plain text files in reStructuredText format, and outputs html.
 
 ----
 
@@ -13,7 +13,7 @@ Installations
 | For installing all in one go via a requirements.txt file steps: :ref:`Python requirements`.
 
 
-* See https://pypi.org/project/Sphinx/
+* See `<https://pypi.org/project/Sphinx/>`_
 
 ----
 
@@ -22,30 +22,31 @@ Suggested Sphinx extensions
 
 Sphinx and the following suggested extensions can be installed individually or via the requirements.txt file.
 
-* For sphinx-rtd-theme go to: https://pypi.org/project/sphinx-rtd-theme/
-* For sphinx-copybutton go to: https://pypi.org/project/sphinx-copybutton/
-* For sphinx-copybutton css go to:https://github.com/executablebooks/sphinx-copybutton/blob/master/sphinx_copybutton/_static/copybutton.css
-* For sphinx-togglebutton go to: https://pypi.org/project/sphinx-togglebutton/
-* For sphinx-design go to: https://pypi.org/project/sphinx_design/
-
+* For sphinx-rtd-theme go to: `<https://pypi.org/project/sphinx-rtd-theme/>`_
+* For sphinx-copybutton go to: `<https://pypi.org/project/sphinx-copybutton/>`_
+* For sphinx-copybutton css go to: `<https://github.com/executablebooks/sphinx-copybutton/blob/master/sphinx_copybutton/_static/copybutton.css>`_
+* For sphinx-togglebutton go to: `<https://pypi.org/project/sphinx-togglebutton/>`_
+* For sphinx-design go to: `<https://pypi.org/project/sphinx_design/>`_
+* For sphinx-new-tab-link go to: `<https://pypi.org/project/sphinx-new-tab-link/>`_
 
 ----
 
 Dependencies
 --------------
 
-| For latest updates and dependencies see: https://sphinx-rtd-theme.readthedocs.io/en/stable/changelog.html
+| For latest updates and dependencies see: `<https://sphinx-rtd-theme.readthedocs.io/en/stable/changelog.html>`_
 
 
 .. code-block::
 
-    pip install Sphinx==8.2.3
-    pip install sphinx-copybutton==0.5.2
-    pip install sphinx-rtd-theme==3.0.2
-    pip install sphinx-togglebutton==0.3.2
-    pip install sphinx_design==0.6.1
+    pip install Sphinx
+    pip install sphinx-copybutton
+    pip install sphinx-rtd-theme
+    pip install sphinx-togglebutton
+    pip install sphinx_design
+    pip install sphinx-new-tab-link
 
-
+| Sphinx 8.2.3 requires docutils>=0.20,<0.22
 
 | See the python section for using a requirements.txt file then using:
 
@@ -174,3 +175,22 @@ Install the sphinx_design Extension
     pip install -U sphinx_design
 
 * To use ``sphinx_design``, make the changes to the conf.py file that are detailed at :ref:`VSCode conf.py`.
+
+----
+
+Install the sphinx_new_tab_link Extension
+------------------------------------------------------------
+
+* The sphinx_new_tab_link Extension opens links in a new tab:
+
+.. code-block::
+
+    pip install sphinx_new_tab_link
+
+* To upgrade include the ``-U`` flag:
+
+.. code-block::
+
+    pip install -U sphinx_new_tab_link
+
+* To use ``sphinx_new_tab_link``, make the changes to the conf.py file that are detailed at :ref:`VSCode conf.py`.

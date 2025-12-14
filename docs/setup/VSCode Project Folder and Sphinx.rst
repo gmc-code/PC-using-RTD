@@ -29,7 +29,7 @@ Create docs folder
 Sphinx-quickstart
 ------------------------------
 
-* For more info on Sphinx, see: https://www.sphinx-doc.org/en/master/usage/quickstart.html
+* For more info on Sphinx, see: `<https://www.sphinx-doc.org/en/master/usage/quickstart.html>`_
 * From the VSCode terminal, run from within the docs folder:
 
 .. code-block::

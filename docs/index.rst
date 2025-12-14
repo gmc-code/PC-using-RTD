@@ -2,7 +2,7 @@
     It should at least contain the root `toctree` directive.
 
 ==============================
-PC-Using-RTD 
+PC-Using-RTD
 ==============================
 
 These docs provide a simple instruction list for setting up automatic updating of your project documentation hosted at ReadTheDocs.
@@ -11,9 +11,9 @@ These docs provide a simple instruction list for setting up automatic updating o
 
 Python -> Sphinx -> VSCode -> reStructuredText -> GitHub -> ReadTheDocs
 
-#. Using Python, set up Sphinx to translate the .rst files into HTML (and PDF) file formats. 
+#. Using Python, set up Sphinx to translate the .rst files into html (and PDF) file formats.
 #. In VSCode, create plain text source files in reStructuredText (.rst) format.
-#. In VSCode, push the documentation changes to a GitHub repository. 
+#. In VSCode, push the documentation changes to a GitHub repository.
 #. Set up ReadTheDocs to automatically update via a webhook to GitHub.
 
 
@@ -26,7 +26,7 @@ Python -> Sphinx -> VSCode -> reStructuredText -> GitHub -> ReadTheDocs
     setup/Python.rst
     setup/Sphinx.rst
     setup/Jupyter.rst
-    setup/VSCode.rst 
+    setup/VSCode.rst
     setup/VSCode Project Folder and Sphinx.rst
     setup/VSCode reStructuredText.rst
     setup/VSCode make html and pdf.rst
@@ -40,10 +40,11 @@ Python -> Sphinx -> VSCode -> reStructuredText -> GitHub -> ReadTheDocs
 ----
 
 An alternate approach can be followed in the techwritingmatters tutorial which has 4 youtube videos.
-https://techwritingmatters.com/documenting-with-sphinx-tutorial-intro-overview#Structure_of_the_Tutorial
+`<https://techwritingmatters.com/documenting-with-sphinx-tutorial-intro-overview#Structure_of_the_Tutorial>`_
+
 It starts by cloning a new GitHub repository to the computer. It is Mac based. It uses a text editor instead of VSCode.
 
-The above steps are suitable for one author using the main branch only. 
+The above steps are suitable for one author using the main branch only.
 For collaboration and the use of feature branches for development see the command line interface (CLI) commands details below:
 
 .. toctree::

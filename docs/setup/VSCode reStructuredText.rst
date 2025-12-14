@@ -10,8 +10,8 @@ Usage
 * Make your doc files in VSCode using reStructuredText .rst files.
 * Use reStructuredText formatting syntax in your docs files.
 * Some important details are specified below.
-* For more details, see: https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html
-* For a compact cheat sheet, see: https://docutils.sourceforge.io/docs/user/rst/cheatsheet.txt
+* For more details, see: `<https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html>`_
+* For a compact cheat sheet, see: `<https://docutils.sourceforge.io/docs/user/rst/cheatsheet.txt>`_
 
 ----
 
@@ -37,18 +37,18 @@ Documentation as .rst files
     .rst files must contain a fully underlined heading to work properly
 
     .. code-block::
-    
+
         Heading
         =======
 
     Overlining and underlined a heading also works.
 
     .. code-block::
-    
+
         =======
         Heading
         =======
-        
+
 ----
 
 Images
@@ -57,7 +57,7 @@ Images
 * Images in a subfolder can be added to .rst files using the directive ``.. image:: images/myimage.png``.
 
 .. tip::
-    
+
     Image path issue
 
     * It is possible to use ``/../docs/images/`` as the path to an images folder but those images don't display in files in github

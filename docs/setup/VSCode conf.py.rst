@@ -8,6 +8,26 @@ In VSCode, edit the ``conf.py`` file in the docs folder.
 
 ----
 
+Sphinx extensions
+----------------------
+
+* A typical extensions list:
+
+.. code-block::
+
+    extensions = [
+        'sphinx_rtd_theme',
+        'sphinx_copybutton',
+        'sphinx.ext.todo',
+        'sphinx.ext.autodoc',
+        'sphinx_togglebutton',
+        'sphinx_design',
+        "sphinx_new_tab_link",
+    ]
+
+
+----
+
 sphinx_rtd_theme
 ------------------------------
 
@@ -38,7 +58,7 @@ sphinx_rtd_theme
 sphinx-rtd-theme Theme Options
 ------------------------------
 
-* See: https://sphinx-rtd-theme.readthedocs.io/en/latest/configuring.html
+* See: `<https://sphinx-rtd-theme.readthedocs.io/en/latest/configuring.html>`_
 * Add the code below to ``conf.py`` with these suggested options:
 
 .. code-block::
@@ -64,7 +84,7 @@ sphinx-rtd-theme Theme Options
 Custom css
 ------------------------------
 
-* Add the code below to the ``Options for HTML output`` section of ``conf.py`` to use the custom css in the ``_static/css/custom.css`` file.
+* Add the code below to the ``Options for html output`` section of ``conf.py`` to use the custom css in the ``_static/css/custom.css`` file.
 
 .. code-block::
 
@@ -77,13 +97,13 @@ Custom css
 Custom logo
 ------------------------------
 
-* Add the code below to the ``Options for HTML output`` section of ``conf.py`` to use the custom logo in the ``_static/logo.png`` file.
+* Add the code below to the ``Options for html output`` section of ``conf.py`` to use the custom logo in the ``_static/logo.png`` file.
 
 .. code-block::
 
     html_logo = '_static/logo.png'
 
-* Add the code below to the ``Options for HTML output`` section of ``conf.py`` to use the custom favicon in the ``_static/favicon.ico`` file.
+* Add the code below to the ``Options for html output`` section of ``conf.py`` to use the custom favicon in the ``_static/favicon.ico`` file.
 
 .. code-block::
 

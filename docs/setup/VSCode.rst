@@ -10,7 +10,7 @@ VSCode
 Install VSCode
 ------------------------------
 
-* Download and install VSCode from https://code.visualstudio.com/download.
+* Download and install VSCode from `<https://code.visualstudio.com/download>`_.
 
 ----
 
@@ -27,8 +27,8 @@ Install VSCode reStructuredText extension
 * Syntax Highlighting (via reStructuredText Syntax highlighting extension)
 * IntelliSense (via Esbonio extension)
 * Live Preview (via Esbonio extension)
-  
-  
+
+
 ----
 
 Install VSCode reStructuredText Syntax highlighting extension
@@ -55,7 +55,7 @@ VSCode Path Separator
 ------------------------------
 
 * In the settings editor, search for Explorer: Copy Relative Path Separator.
-* Set the value to / (forward slash). 
+* Set the value to / (forward slash).
 * This will ensure that when you right-click on project files and select Copy Relative Path, the path separator will be a forward slash.
 * This will be hand when adding files to the index.rst file.
-  
+

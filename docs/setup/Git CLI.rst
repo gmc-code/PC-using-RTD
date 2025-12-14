@@ -2,11 +2,11 @@
 Git CLI
 ==============================
 
-| For an introduction to command line use of git in the terminal (CLI) see: https://www.youtube.com/watch?v=HVsySz-h9r4&list=PL-osiE80TeTuRUfjRe54Eea17-YfnOOAx
+| For an introduction to command line use of git in the terminal (CLI) see: `<https://www.youtube.com/watch?v=HVsySz-h9r4&list=PL-osiE80TeTuRUfjRe54Eea17-YfnOOAx>`_
 | Below are some git CLI commands that might be useful.
-| For the book that was the basis of the videos, see: https://git-scm.com/book/en/v2
-| For diagrams that help show what is happening: https://marklodato.github.io/visual-git-guide/index-en.html
-| See: https://www.youtube.com/watch?v=uR6G2v_WsRA
+| For the book that was the basis of the videos, see: `<https://git-scm.com/book/en/v2>`_
+| For diagrams that help show what is happening: `<https://marklodato.github.io/visual-git-guide/index-en.html>`_
+| See: `<https://www.youtube.com/watch?v=uR6G2v_WsRA>`_
 
 ----
 
@@ -58,7 +58,7 @@ Sometimes you may already be in a subfolder and just need to go up to the parent
 To Initialize the repository:
 
 .. code-block::
-    
+
     git init
 
 ----
@@ -98,7 +98,7 @@ The steps that a file takes to have an updated version of it added to the github
 Add files to Staging Area
 ------------------------------
 
-See: https://www.youtube.com/watch?v=tcd4txbTtAY&list=PL-osiE80TeTuRUfjRe54Eea17-YfnOOAx&index=6
+See: `<https://www.youtube.com/watch?v=tcd4txbTtAY&list=PL-osiE80TeTuRUfjRe54Eea17-YfnOOAx&index=6>`_
 
 Files added to the staging area are changed files: new, modified or deleted.
 
@@ -126,7 +126,7 @@ To add all the changed files within the working directory (from which it is run 
 
     git add .
 
-| Options for adding files: 
+| Options for adding files:
 | The -A option is the default behaviour.
 | git add -A (or git add or git add --all) stages all the changes in the whole working project folder (tree).
 | git add -A mydir/  stages all the changed files in that directory.
@@ -274,7 +274,7 @@ To list all the local and remote branches in the repo:
 
 ----
 
-View changes made 
+View changes made
 ------------------------------
 
 To show changes to files:
@@ -378,7 +378,7 @@ Steps to delete ``mygitcmds`` branch:
 
 .. code-block::
 
-    git branch --merged  
+    git branch --merged
     git branch -d mygitcmds
     git branch -a
     git push origin --delete mygitcmds
@@ -440,10 +440,10 @@ Copy the hash of the main branch's last commit that needs moving.
 Switch to feature branch:
 
 .. code-block::
-    
-    git checkout <featurebranch> 
 
-Copy the hash of last commit that needs moving. 
+    git checkout <featurebranch>
+
+Copy the hash of last commit that needs moving.
 
 Copy commit to feature branch:
 
@@ -469,7 +469,7 @@ Then return main branch.
 Soft reset
 ------------------------------
 
-Then copy hash of initial commit to use in soft reset. 
+Then copy hash of initial commit to use in soft reset.
 
 .. code-block::
 
@@ -598,7 +598,7 @@ All the changes will appear to be gone, but are stashed. To get a list of stashe
 
     git stash list
 
-This lists the stash id, the branch and the message. 
+This lists the stash id, the branch and the message.
 To bring back the changes that were stashed:
 
 .. code-block::
@@ -655,7 +655,7 @@ Remove the git tracking (delete hidden .git folder)
 * Use RMDIR /Q/S foldername  or RD /Q/S foldername
 * /Q -- Quiet mode, won't prompt for confirmation to delete folders.
 * /S -- Run the operation on all folders of the selected path.
-* foldername -- The absolute path or relative folder name 
+* foldername -- The absolute path or relative folder name
 * So from within the repository folder
 
 .. code-block::

@@ -5,8 +5,8 @@ Python
 Install Python
 ------------------------------
 
-* Download and install Python from: https://www.python.org/downloads/.
-* OLder versions can be found at: https://test.python.org/downloads/.
+* Download and install Python from: `<https://www.python.org/downloads/>`_.
+* Older versions can be found at: `<https://test.python.org/downloads/>`_.
 * Check the checkbox to update the path variable when installing.
 
 * Manually update path if it wasn't automatically done during installation.
@@ -40,7 +40,7 @@ Install Python
 Create a python Virtual environment
 ---------------------------------------
 
-| See: https://www.youtube.com/watch?v=APOPm01BVrk
+| See: `<https://www.youtube.com/watch?v=APOPm01BVrk>`_
 | Rather than installing the python packages in the system wide installation of python, a virtual environment can be created that only has the modules needed for sphinx and read the docs.
 | Virtual environments allow easy maintenance of the libraries needed for the project and avoid issues that can happen when multiple dependencies conflict across multiple projects.
 

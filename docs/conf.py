@@ -2,10 +2,8 @@
 # see https://www.sphinx-doc.org/en/master/usage/configuration.html
 
 # -- Project information -----------------------------------------------------
-
-import sphinx_rtd_theme
 project = 'PC-Using-RTD'
-copyright = '2020-5, GMC'
+copyright = '2020-26, GMC'
 author = 'GMC'
 
 
@@ -20,8 +18,8 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx_togglebutton',
     'sphinx_design',
+    "sphinx_new_tab_link",
 ]
-
 # for copybutton to allow use of :class: no-copybutton  in code blocks
 # copybutton_selector = "div:not(.no-copybutton) > div.highlight > pre"
 

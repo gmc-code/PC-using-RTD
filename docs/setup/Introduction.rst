@@ -8,9 +8,9 @@ These docs provide a simple instruction list for setting up automatic updating o
 
 Python -> Sphinx -> VSCode -> reStructuredText -> GitHub -> ReadTheDocs
 
-#. Using Python, set up Sphinx to translate the .rst files into HTML (and PDF) file formats. 
+#. Using Python, set up Sphinx to translate the .rst files into html (and PDF) file formats.
 #. In VSCode, create plain text source files in reStructuredText (.rst) format.
-#. In VSCode, push the documentation changes to a GitHub repository. 
+#. In VSCode, push the documentation changes to a GitHub repository.
 #. Set up ReadTheDocs to automatically update via a webhook to GitHub.
 
 ----

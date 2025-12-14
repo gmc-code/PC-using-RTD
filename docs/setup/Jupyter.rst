@@ -31,8 +31,8 @@ It has the drawback that it is not fully compatible with the sphinx-copybutton e
 Install the jupyter-sphinx extension
 --------------------------------------
 
-* See: https://pypi.org/project/jupyter-sphinx/
-* See: https://jupyter-sphinx.readthedocs.io/en/latest/
+* See: `<https://pypi.org/project/jupyter-sphinx/>`_
+* See: `<https://jupyter-sphinx.readthedocs.io/en/latest/>`_
 
 * Install the jupyter-sphinx extension from the command line.
 
@@ -126,8 +126,8 @@ sphinx-thebe
 Install the sphinx-thebe extension
 --------------------------------------
 
-* See: https://pypi.org/project/sphinx-thebe/
-* See: https://sphinx-thebe.readthedocs.io/en/latest/
+* See: `<https://pypi.org/project/sphinx-thebe/>`_
+* See: `<https://sphinx-thebe.readthedocs.io/en/latest/>`_
 
 * Install the sphinx-thebe extension from the command line.
 
@@ -202,9 +202,9 @@ nbsphinx
 Install the nbsphinx extension
 --------------------------------------
 
-| See: https://pypi.org/project/nbsphinx/
-| See: https://nbsphinx.readthedocs.io/
-| See: https://docs.readthedocs.io/en/stable/guides/jupyter.html
+| See: `<https://pypi.org/project/nbsphinx/>`_
+| See: `<https://nbsphinx.readthedocs.io/>`_
+| See: `<https://docs.readthedocs.io/en/stable/guides/jupyter.html>`_
 
 * Install the nbsphinx extension from the command line.
 
@@ -224,8 +224,8 @@ VSCode Jupyter extension
 * Install the Jupyter extension.
 
 * To edit .ipynb files in VSCode install the python ipykernel package.
-* See: https://pypi.org/project/ipykernel/
-* See: https://ipython.org/
+* See: `<https://pypi.org/project/ipykernel/>`_
+* See: `<https://ipython.org/>`_
 
 .. code-block::
 
@@ -275,8 +275,8 @@ sphinxcontrib-jupyter
 Install the sphinxcontrib-jupyter extension
 -------------------------------------------------
 
-| See: https://pypi.org/project/sphinxcontrib-jupyter/
-| See: https://sphinxcontrib-jupyter.readthedocs.io/en/latest/
+| See: `<https://pypi.org/project/sphinxcontrib-jupyter/>`_
+| See: `<https://sphinxcontrib-jupyter.readthedocs.io/en/latest/>`_
 
 * Install the sphinxcontrib-jupyter extension from the command line.
 
