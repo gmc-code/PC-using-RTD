@@ -1,8 +1,9 @@
-Sphinx # ==8.2.3
-sphinx-copybutton  #==0.5.2
-sphinx-rtd-theme  #==3.0.2
-sphinx-togglebutton  #==0.3.2
-sphinx_design  #==0.6.1
+sphinx==9.0.4 # ==8.2.3
+sphinx-copybutton
+sphinx-rtd-theme
+sphinx-togglebutton
+sphinx_design
+sphinx-new-tab-link
 
 # docutils>=0.20,<0.22
 
