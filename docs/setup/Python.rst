@@ -154,13 +154,14 @@ Updating python packages
 .. code-block::
 
     cd VENVNAME
-    pip install --upgrade -r requirements.txt
+    pip install --upgrade package_name
+
 
 * ``-U`` can be used instead of ``--upgrade``
 
 .. code-block::
 
-    pip install -U -r requirements.txt
+    pip install -U package_name
 
 ----
 
