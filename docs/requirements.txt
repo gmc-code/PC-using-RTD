@@ -1,4 +1,4 @@
-sphinx==8.2.3
+sphinx
 sphinx-copybutton
 sphinx-rtd-theme
 sphinx-togglebutton
@@ -18,3 +18,16 @@ sphinx-new-tab-link
 # notebook
 # jupyter-sphinx
 # sphinx-thebe
+
+# Name: Sphinx
+# Version: 9.1.0
+# Name: sphinx-copybutton
+# Version: 0.5.2
+# Name: sphinx_rtd_theme
+# Version: 3.1.0
+# Name: sphinx-togglebutton
+# Version: 0.4.4
+# Name: sphinx_design
+# Version: 0.7.0
+# Name: sphinx-new-tab-link
+# Version: 0.8.1

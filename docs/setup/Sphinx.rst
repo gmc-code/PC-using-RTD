@@ -46,6 +46,16 @@ Dependencies
     pip install sphinx_design
     pip install sphinx-new-tab-link
 
+* To force upgrade to the latest compatible versions of all packages:
+
+.. code-block::
+
+    pip install --upgrade Sphinx
+    pip install --upgrade sphinx-copybutton
+    pip install --upgrade sphinx-rtd-theme
+    pip install --upgrade sphinx-togglebutton
+    pip install --upgrade sphinx_design
+    pip install --upgrade sphinx-new-tab-link
 
 | sphinx-design 0.6.1 depends on sphinx<9 and >=6
 | sphinx==9.0.4 incompatible
@@ -60,16 +70,42 @@ Dependencies
 
     pip install -r requirements.txt
 
+* To force upgrade to the latest compatible versions of all packages:
+
+.. code-block::
+
+    pip install -U -r requirements.txt
+
 ----
 
 All pip installed versions
 -----------------------------
 
-* Check the installed version of sphinx, sphinx_rtd_theme and sphinx-copybutton with:
+* Check the installed version of all pip installed packages with:
 
 .. code-block::
 
     pip list
+
+
+* Check the installed version of sphinx and recommended extensions with:
+
+.. code-block::
+
+    pip show Sphinx
+    pip show sphinx-copybutton
+    pip show sphinx-rtd-theme
+    pip show sphinx-togglebutton
+    pip show sphinx_design
+    pip show sphinx-new-tab-link
+
+.. code-block::
+
+    pip show Sphinx, sphinx-copybutton, sphinx-rtd-theme, sphinx-togglebutton, sphinx_design, sphinx-new-tab-link |
+    Select-String "Name|Version"
+
+
+
 
 ----
 
