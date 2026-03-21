@@ -57,13 +57,6 @@ Dependencies
     pip install --upgrade sphinx_design
     pip install --upgrade sphinx-new-tab-link
 
-| sphinx-design 0.6.1 depends on sphinx<9 and >=6
-| sphinx==9.0.4 incompatible
-
-| sphinx 8.2.3 requires docutils<0.22,>=0.20
-| sphinx-rtd-theme 3.0.2 requires docutils<0.22,>0.18, and sphinx 8.2.3
-| docutils 0.22.2 is incompatible.
-
 | See the python section for using a requirements.txt file then using:
 
 .. code-block::
@@ -105,7 +98,18 @@ All pip installed versions
     Select-String "Name|Version"
 
 
-
+| Name: Sphinx
+Version: 9.1.0
+| Name: sphinx-copybutton
+Version: 0.5.2
+| Name: sphinx_rtd_theme
+Version: 3.1.0
+| Name: sphinx-togglebutton
+Version: 0.4.4
+| Name: sphinx_design
+Version: 0.7.0
+| Name: sphinx-new-tab-link
+Version: 0.8.1
 
 ----
 
