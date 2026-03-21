@@ -81,7 +81,7 @@ All pip installed versions
     pip list
 
 
-* Check the installed version of sphinx and recommended extensions with:
+* Check the installed version of sphinx and recommended extensions individually with:
 
 .. code-block::
 
@@ -92,6 +92,8 @@ All pip installed versions
     pip show sphinx_design
     pip show sphinx-new-tab-link
 
+* Check the installed version of sphinx and recommended extensions with a single command and filter for name and version with:
+*
 .. code-block::
 
     pip show Sphinx, sphinx-copybutton, sphinx-rtd-theme, sphinx-togglebutton, sphinx_design, sphinx-new-tab-link |
@@ -100,14 +102,19 @@ All pip installed versions
 
 | Name: Sphinx
 Version: 9.1.0
+
 | Name: sphinx-copybutton
 Version: 0.5.2
+
 | Name: sphinx_rtd_theme
 Version: 3.1.0
+
 | Name: sphinx-togglebutton
 Version: 0.4.4
+
 | Name: sphinx_design
 Version: 0.7.0
+
 | Name: sphinx-new-tab-link
 Version: 0.8.1
 
@@ -117,17 +124,17 @@ Install Sphinx
 ------------------------------
 
 * Press :kbd:`Win` + :kbd:`X` + :kbd:`C` to open the Command prompt.
-* From the cmd prompt install the Sphinx library.
+* Install the Sphinx library.
 
 .. code-block::
 
     pip install sphinx
 
-* From the cmd prompt install the Sphinx library using a specific version..
+* Install the Sphinx library using a specific version..
 
 .. code-block::
 
-    pip install sphinx==8.2.3
+    pip install sphinx==9.1.0
 
 
 * To upgrade include the ``-U`` flag.
@@ -149,7 +156,9 @@ Install the Sphinx theme for Read the Docs
 ------------------------------------------------------------
 
 * The sphinx_rtd_theme is used by other RTD guides, so it is best to use for consistency of look and feel.
-* From the cmd prompt install the Sphinx theme for read the docs.
+* To use ``sphinx_rtd_theme``, make the changes to the conf.py file that are detailed at :ref:`VSCode conf.py`.
+
+* Install the Sphinx theme for read the docs.
 
 .. code-block::
 
@@ -161,7 +170,11 @@ Install the Sphinx theme for Read the Docs
 
     pip install -U sphinx_rtd_theme
 
-* To use ``sphinx_rtd_theme``, make the changes to the conf.py file that are detailed at :ref:`VSCode conf.py`.
+* Check the installed version with:
+
+.. code-block::
+
+    pip show sphinx-rtd-theme
 
 ----
 
@@ -169,7 +182,10 @@ Install the sphinx-copybutton Extension
 ------------------------------------------------------------
 
 * The sphinx-copybutton Extension adds a copy button to code blocks.
-* From the cmd prompt install the Sphinx Extension: sphinx-copybutton:
+* To use ``sphinx-copybutton``, make the changes to the conf.py file that are detailed at :ref:`VSCode conf.py`.
+
+
+* Install the Sphinx Extension: sphinx-copybutton:
 
 .. code-block::
 
@@ -181,7 +197,11 @@ Install the sphinx-copybutton Extension
 
     pip install -U sphinx-copybutton
 
-* To use ``sphinx-copybutton``, make the changes to the conf.py file that are detailed at :ref:`VSCode conf.py`.
+* Check the installed version with:
+
+.. code-block::
+
+    pip show sphinx-copybutton
 
 ----
 
@@ -189,7 +209,9 @@ Install the sphinx-togglebutton Extension
 ------------------------------------------------------------
 
 * The sphinx-togglebutton Extension adds the ability to Collapse Sphinx admonitions (notes, warnings, etc) so that their content is hidden until users click a toggle button.
-* From the cmd prompt install the Sphinx Extension: sphinx-togglebutton:
+* * To use ``sphinx-togglebutton``, make the changes to the conf.py file that are detailed at :ref:`VSCode conf.py`.
+
+* Install the Sphinx Extension: sphinx-togglebutton:
 
 .. code-block::
 
@@ -201,15 +223,22 @@ Install the sphinx-togglebutton Extension
 
     pip install -U sphinx-togglebutton
 
-* To use ``sphinx-togglebutton``, make the changes to the conf.py file that are detailed at :ref:`VSCode conf.py`.
+* Check the installed version with:
+
+.. code-block::
+
+    pip show sphinx-togglebutton
 
 ----
 
 Install the sphinx_design Extension
 ------------------------------------------------------------
 
-* The sphinx_design Extension adds drop downs and tabs:
+* The sphinx_design Extension adds drop downs and tabs.
+* To use ``sphinx_design``, make the changes to the conf.py file that are detailed at :ref:`VSCode conf.py`.
 
+* Install the Sphinx Extension: sphinx_design:
+*
 .. code-block::
 
     pip install sphinx_design
@@ -220,14 +249,19 @@ Install the sphinx_design Extension
 
     pip install -U sphinx_design
 
-* To use ``sphinx_design``, make the changes to the conf.py file that are detailed at :ref:`VSCode conf.py`.
+* Check the installed version with:
+
+.. code-block::
+
+    pip show sphinx_design
 
 ----
 
 Install the sphinx_new_tab_link Extension
 ------------------------------------------------------------
 
-* The sphinx_new_tab_link Extension opens links in a new tab:
+* The sphinx_new_tab_link Extension opens links in a new tab.
+* To use ``sphinx_new_tab_link``, make the changes to the conf.py file that are detailed at :ref:`VSCode conf.py`.
 
 .. code-block::
 
@@ -239,4 +273,9 @@ Install the sphinx_new_tab_link Extension
 
     pip install -U sphinx_new_tab_link
 
-* To use ``sphinx_new_tab_link``, make the changes to the conf.py file that are detailed at :ref:`VSCode conf.py`.
+* Check the installed version with:
+
+.. code-block::
+
+    pip show sphinx-new-tab-link
+
