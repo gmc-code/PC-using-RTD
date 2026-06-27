@@ -107,7 +107,7 @@ Install python packages via requirements.txt
 
 .. code-block::
 
-    sphinx==8.2.3
+    sphinx
     sphinx-copybutton
     sphinx-rtd-theme
     sphinx-togglebutton
@@ -119,7 +119,7 @@ Install python packages via requirements.txt
 
 .. code-block::
 
-    pip install Sphinx==8.2.3
+    pip install Sphinx
     pip install sphinx-copybutton
     pip install sphinx-rtd-theme
     pip install sphinx-togglebutton

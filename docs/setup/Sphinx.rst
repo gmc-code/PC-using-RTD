@@ -92,31 +92,62 @@ All pip installed versions
     pip show sphinx_design
     pip show sphinx-new-tab-link
 
-* Check the installed version of sphinx and recommended extensions with a single command and filter for name and version with:
-*
+* Check the installed version of sphinx and recommended extensions with a single command and filter for name and version in powershell with:
+
 .. code-block::
 
-    pip show Sphinx, sphinx-copybutton, sphinx-rtd-theme, sphinx-togglebutton, sphinx_design, sphinx-new-tab-link |
-    Select-String "Name|Version"
+    pip show sphinx sphinx-copybutton sphinx-rtd-theme sphinx-togglebutton sphinx_design sphinx-new-tab-link |
+    Select-String "^Name:|^Version:" |
+    ForEach-Object { $_.Line -replace '^Name:\s*', '' -replace '^Version:\s*', ': ' } |
+    Group-Object -Property { [math]::Floor(($global:i++) / 2) } |
+    ForEach-Object { $_.Group -join "" }
 
+| Sphinx: 9.1.0
+| sphinx-copybutton: 0.5.2
+| sphinx_rtd_theme: 3.1.0
+| sphinx-togglebutton: 0.4.5
+| sphinx_design: 0.7.0
+| sphinx-new-tab-link: 0.8.1
 
-| Name: Sphinx
-Version: 9.1.0
+----
 
-| Name: sphinx-copybutton
-Version: 0.5.2
+Check latest versions available
+---------------------------------
 
-| Name: sphinx_rtd_theme
-Version: 3.1.0
+* Check the latest version of all pip packages with this powershell script:
 
-| Name: sphinx-togglebutton
-Version: 0.4.4
+.. code-block::
 
-| Name: sphinx_design
-Version: 0.7.0
+    "sphinx", "sphinx-copybutton", "sphinx-rtd-theme", "sphinx-togglebutton", "sphinx_design", "sphinx-new-tab-link" | ForEach-Object {
+        $indexLine = pip index versions $_ | Select-Object -First 1
+        if ($indexLine -match '\(([\d\.]+)\)') {
+            Write-Host ("{0,-25} : {1}" -f $_, $matches[1]) -ForegroundColor Cyan
+        }
+    }
 
-| Name: sphinx-new-tab-link
-Version: 0.8.1
+* Check the latest version of all pip packages using the requirements.txt file with this powershell script:
+
+.. code-block::
+
+    Get-Content .\requirements.txt | ForEach-Object {
+        # Clean up the line: strip spaces and ignore comments or empty lines
+        $line = $_.Trim()
+        if ($line -and -not $line.StartsWith("#")) {
+
+            # Extract just the package name before any ==, >=, <=, or [extras]
+            $pkg = ($line -split '[<>=~\[]')[0].Trim()
+
+            # Query pip index for the latest version line
+            $indexLine = pip index versions $pkg | Select-Object -First 1
+
+            # Extract the version number inside the parentheses
+            if ($indexLine -match '\(([\d\.]+)\)') {
+                Write-Host ("{0,-25} : {1}" -f $pkg, $matches[1]) -ForegroundColor Cyan
+            } else {
+                Write-Host ("{0,-25} : Could not find version" -f $pkg) -ForegroundColor Yellow
+            }
+        }
+    }
 
 ----
 
@@ -238,7 +269,7 @@ Install the sphinx_design Extension
 * To use ``sphinx_design``, make the changes to the conf.py file that are detailed at :ref:`VSCode conf.py`.
 
 * Install the Sphinx Extension: sphinx_design:
-*
+
 .. code-block::
 
     pip install sphinx_design
