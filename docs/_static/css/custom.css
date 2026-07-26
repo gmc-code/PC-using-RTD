@@ -248,7 +248,19 @@ button.copybtn svg {
     font-weight: 600;
 }
 
+/*=======================================*/
+/*=======================================*/
 
+/* override side menu padding */
+.wy-menu-vertical a {
+    padding: .08em 1.618em;
+}
+
+.wy-menu-vertical li.current a {
+    padding: .08em 2.427em;
+}
+
+/*=======================================*/
 /*=======================================*/
 
 /*font awesome*/
