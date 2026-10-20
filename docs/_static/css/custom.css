@@ -1,8 +1,7 @@
-/* remove read the docs fly out menu */
+/* to remove read the docs fly out menu */
+/* see Read the Docs dashboard under your project’s Settings → Addons → Flyout? */
 
-.your-floating-element-class {
-    display: none !important;
-}
+/* hide the top the version and language selectors */
 
 .switch-menus {
     display: none !important;
